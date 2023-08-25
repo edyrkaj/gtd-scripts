@@ -8,15 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tewen/gtd-scripts.git"
+    "url": "git+https://github.com/edyrkaj/gtd-scripts.git"
   },
-  "author": "Trevor Ewen",
+  "author": "Eledi Dyrkaj",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tewen/gtd-scripts/issues"
+    "url": "https://github.com/edyrkaj/gtd-scripts/issues"
   },
-  "homepage": "https://github.com/tewen/gtd-scripts#readme",
+  "homepage": "https://github.com/edyrkaj/gtd-scripts#readme",
   "dependencies": {
+    "@google-cloud/translate": "^8.0.1",
+    "axios": "^1.4.0",
     "colors": "^1.1.2",
     "es6-promisify": "^5.0.0",
     "google-translate-api-browser": "^1.1.71",
@@ -24,7 +26,6 @@
     "moment": "^2.17.1",
     "prompt": "^1.0.0",
     "superagent": "^3.4.1",
-    "superagent-promise": "^1.1.0",
-    "trello": "^0.7.0"
+    "superagent-promise": "^1.1.0"
   }
 }
